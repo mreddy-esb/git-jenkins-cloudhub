@@ -226,6 +226,16 @@
 			<version>${munit.version}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.mule.tools.maven/mule-app-maven-plugin -->
+		<dependency>
+			<groupId>org.mule.tools.maven</groupId>
+			<artifactId>mule-app-maven-plugin</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<repositories>
