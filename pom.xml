@@ -9,18 +9,10 @@
 	<packaging>mule</packaging>
 	<name>Mule git-jenkins-cloudhub Application</name>
 
-	<!-- <distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>Ricky-releases</name>
-			<url>http://localhost:8081/artifactory/git-jenkins-cloudhub</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Ricky-snapshots</name>
-			<url>http://localhost:8081/artifactory/git-jenkins-cloudhub</url>
-		</snapshotRepository>
-	</distributionManagement> -->
+	<!-- <distributionManagement> <repository> <id>central</id> <name>Ricky-releases</name> 
+		<url>http://localhost:8081/artifactory/git-jenkins-cloudhub</url> </repository> 
+		<snapshotRepository> <id>snapshots</id> <name>Ricky-snapshots</name> <url>http://localhost:8081/artifactory/git-jenkins-cloudhub</url> 
+		</snapshotRepository> </distributionManagement> -->
 
 
 
@@ -238,6 +230,14 @@
 			<groupId>org.codehaus.plexus</groupId>
 			<artifactId>plexus-utils</artifactId>
 			<version>1.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-resources-plugin</artifactId>
+			<version>3.0.2</version>
+			<type>maven-plugin</type>
 		</dependency>
 
 
