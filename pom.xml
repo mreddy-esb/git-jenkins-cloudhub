@@ -9,7 +9,7 @@
 	<packaging>mule</packaging>
 	<name>Mule git-jenkins-cloudhub Application</name>
 
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			<id>central</id>
 			<name>Ricky-releases</name>
@@ -20,7 +20,7 @@
 			<name>Ricky-snapshots</name>
 			<url>http://localhost:8081/artifactory/git-jenkins-cloudhub</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 
 
